@@ -1,0 +1,12 @@
+def maxT(a, b, c):
+    if (a > b):
+        if (a > c):
+            return a
+        else:
+            return c
+    else:
+        if(b > c):
+            return b
+    return c
+
+print(maxT(5,8,6))
